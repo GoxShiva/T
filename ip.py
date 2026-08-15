@@ -258,6 +258,68 @@ for generate in range(100):
 first_names = [
     "Farzana", "Tania", "Shanta", "Nadia", "Rima", "Sumaiya", "Jannat", "Nabila", "Sabrina", "Ayesha", "Samira", "Yasmin",
     "Ayesha", "Sumaiya", "Mitu", "Sharmin", "Nusrat", "Moushumi", "Laboni", "Rumana", "Lamia", "Sadia",
+    "Star", "Astra", "Lyra", "Celeste", "Elara", "Elysia", "Raine",
+    "Sylvie", "Nahara", "Isolde", "Ophelia", "Althea", "Calista", "Delara",
+    "Eira", "Freya", "Gaia", "Helena", "Ilara", "Junia", "Kaia", "Liora",
+    "Maeve", "Nara", "Odessa", "Phoebe", "Quinn", "Rhea", "Selene", "Thalia",
+    "Una", "Vanya", "Wynter", "Xanthe", "Yara", "Zara", "Amara", "Aurelia",
+    "Brina", "Celine", "Dahlia", "Eden", "Fiona", "Gwen", "Helia", "Isla",
+    "Jessa", "Kara", "Lilia", "Mara", "Nerine", "Oona", "Perse", "Runa",
+    "Sana", "Tara", "Vera", "Willa", "Xena", "Yvaine", "Zinnia", "Aislinn",
+    "Arielle", "Belladonna", "Briar", "Cassia", "Daphne", "Eleni", "Flora",
+    "Gemma", "Hera", "Ione", "Jadea", "Kaira", "Lilith", "Maven", "Nerida",
+    "Orla", "Petra", "Quilla", "Risa", "Saphira", "Tessa", "Vixie", "Wren",
+    "Yuna", "Zelie", "Aiyana", "Ameera", "Blaire", "Camina", "Daria", "Eirene",
+    "Faye", "Greta", "Honora", "Indira", "Jolie", "Kahlia", "Lunara", "Maris",
+    "Nixie", "Oriana", "Phaedra", "Reina", "Soleil", "Tahlia", "Viera",
+    "Whisper", "Xylia", "Yasmin", "Zephyra", "Adira", "Ariya", "Brienne",
+    "Coraline", "Dove", "Emberly", "Fable", "Giselle", "Harlow", "Ivyra",
+    "Jorah", "Keira", "Lyrra", "Mirelle", "Nimue", "Ophira", "Paloma", "Rivka",
+    "Sarai", "Tirzah", "Velia", "Wynna", "Xaria", "Yllia", "Zalina", "Amoura",
+    "Aven", "Brisa", "Cassidy", "Diantha", "Elva", "Farrah", "Giada", "Hollis",
+    "Inara", "Jadeen", "Kiera", "Leira", "Maelle", "Naida", "Orra", "Pyria",
+    "Riona", "Saphine", "Tova", "Vanyael", "Winry", "Xavia", "Ysella", "Zyria",
+    "Alera", "Arwen", "Brielle", "Cyrene", "Deira", "Evania", "Fianna",
+    "Gwenna", "Halyn", "Irina", "Jovina", "Kaelia", "Luneth", "Mariel",
+    "Nayla", "Orelle", "Phaena", "Ruelle", "Sylph", "Thessaly", "Valea",
+    "Wynnair", "Xenara", "Ysolde", "Zamira", "Alira", "Amaris", "Brynna",
+    "Ceres", "Delyra", "Eislyn", "Fiora", "Gwyne", "Haelia", "Ismena", "Jalyn",
+    "Katria", "Liorael", "Maelis", "Nessara", "Ovelyn", "Prisma", "Ravine",
+    "Seraphine", "Tahlira", "Vierael", "Wyndra", "Xylara", "Yvanna", "Zerina",
+    "Anora", "Aveline", "Brienne", "Cynra", "Danea", "Eirlys", "Fael", "Giana",
+    "Hessia", "Ilona", "Janessa", "Kyria", "Lirael", "Madria", "Norelle",
+    "Ophirae", "Paela", "Quina", "Rilith", "Sienna", "Tiriel", "Velisse",
+    "Wrena", "Xamira", "Ysenne", "Zynra", "Aelina", "Alessa", "Belwyn",
+    "Carmine", "Daelia", "Elyndra", "Fiorael", "Gwyneth", "Helis", "Isola",
+    "Jynra", "Kailen", "Lunisse", "Mynra", "Nyelle", "Orissa", "Phira",
+    "Rylis", "Saphyre", "Thyra", "Valyn", "Wynelle", "Xira", "Ylith", "Zayra",
+    "Avenia", "Ariael", "Blythe", "Corra", "Delyth", "Elaina", "Fara", "Gisra",
+    "Hellen", "Ionea", "Jalisa", "Kayle", "Lysandra", "Mirael", "Nysa",
+    "Ophirael", "Phaelia", "Renelle", "Saphra", "Tirra", "Viona", "Wynlie",
+    "Xynna", "Ylia", "Zinnara", "Azura", "Bliss", "Cassiel", "Dionne",
+    "Elaris", "Fawn", "Gloria", "Haelyn", "Inessa", "Jael", "Koryn", "Lissara",
+    "Marenne", "Hiraya", "Celestine", "Aurora", "Astrid", "Brielle", "Calista", "Davina", "Elara", "Freya", "Genevieve",
+    "Haven", "Iris", "Juliet", "Kaia", "Lyra", "Mira", "Nova", "Ophelia", "Persephone", "Quinn",
+    "Rosalie", "Seraphina", "Thea", "Valencia", "Willow", "Xandra", "Yara", "Zara", "Athena", "Bianca", "Hiraya", "Seraphina", "Anastasia", "Celestine", "Evangeline", "Isadora",
+    "Genevieve", "Arabella", "Josephine", "Valentina", "Alessandra", "Cassandra",
+    "Gabriella", "Penelope", "Rosalind", "Vivienne", "Arabesque", "Beatrice",
+    "Clementine", "Delphine", "Esmeralda", "Francesca", "Gwendolyn",
+    "Isolde", "Juliette", "Katarina", "Lavender", "Magdalena", "Nicolette",
+    "Ophelia", "Persephone", "Queenie", "Rosabelle", "Sapphire", "Theodora",
+    "Valencia", "Wilhelmina", "Xanthia", "Zenaida", "Aureliana",
+    "Bernadette", "Celestia", "Desdemona", "Fallon", "Flannery", "Kaie",
+    "Kaitlyn", "Kassidy", "Kathleen", "Keena", "Keira",
+    "Kendall", "Kenna", "Kera", "Kiara",
+    "Kirra", "Kylee", "Lachlan", "Lorna", "Maeve", "Malise",
+    "Morgance", "Morgandy", "Nonnita", "Nuala", "Raelin", "Rhonda",
+    "Saoirse", "Saraid", "Seanna", "Shela", "Shylah", "Tara",
+    "Teranika", "Tieve", "Treasa", "Treva", "Addison", "Alivia",
+    "Allaya", "Amarie", "Amaris", "Annabeth", "Annalynn", "Araminta",
+    "Ardys", "Ashland", "Avery", "Bernadette", "Billie",
+    "Birdee", "Bliss", "Brice", "Brittany", "Bryony", "Cameo",
+    "Carol", "Chalee", "Christy", "Corky", "Courage",
+    "Daelen", "Dana", "Darnell", "Dawn", "Delsie", "Denita",
+    "Devon", "Devona",
     "Farzana", "Tania", "Shanta", "Nadia", "Salma", "Nargis", "Shabnam", "Mim", "Jannat", "Priya",
     "Afia", "Jerin", "Mahira", "Sinthia", "Oishee", "Trisha", "Rakhi", "Puja", "Ema", "Sabrina",
     "Tahmina", "Naznin", "Rifat", "Antora", "Nilufa", "Elma", "Bonna", "Sanjida", "Riya", "Mahi",
@@ -280,7 +342,7 @@ first_names = [
     "Nashrin", "Fozia", "Sinthia", "Tanjina", "Nazma", "Papia", "Lubaba", "Nilufa", "Ashfia", "Shama",
     "Sayda", "Rahima", "Masuma", "Monika", "Riyana", "Jesmin", "Humaira", "Maisha", "Sumita", "Anjuli"
 ]
-surnames = ["mahwar", "Khan", "Ahmed", "Begum", "Akter", "Islam", "Rahman", "Hossain", "Akter", "Begum", "Khatun", "Sultana", "Haque", "Rahman", "Chowdhury", "Islam", "Jahan", "meena", "rajk", "Parvin",]
+surnames = ["mahwar", "Khan", "Ahmed", "Begum", "Akter", "Islam", "Rahman", "Hossain", "Akter", "Begum", "Khatun", "Sultana", "Haque", "Rahman", "Chowdhury", "Islam", "Jahan", "meena", "rajk", "Parvin", "Shadow", "Dark", "Light", "Star", "Moon", "Sun", "Sky", "Night", "Dawn","Storm", "Frost", "Fire", "Stanley", "Nero", "Clifford", "Volsckev","Draven", "Smith", "Greisler", "Wraith", "Hale", "Voss", "Lockhart","Ashford", "Wynters", "Grayson", "Ravenwood", "Langford", "Averill","Cross", "Kane", "Holloway", "Mercer", "Devereux", "Vale", "Alden","Blackwell", "Marcellis", "Vossler", "Crane", "Laurent", "Radcliffe","Hadrian", "Vexley", "Roth", "Everhart", "Winslow", "Fayden", "Crawford","Ashborne", "Davenport", "Drayton", "Sutherland", "Vayne", "Rosenthal",]
 
 def get_bd_name():
     return random.choice(first_names), random.choice(surnames)
@@ -389,8 +451,8 @@ def banner():
                                                  
                                    
 {W}─────────────────────────────────────────────{W}
-{W}[{G}•{W}]{G} DEVOLPER {W}:{G} ss
-{W}[{G}•{W}]{G} FACEBOOK {W}:{G} GS 💪 
+{W}[{G}•{W}]{G} DEVOLPER {W}:{G} ss 15 aug 2026 mb GS
+{W}[{G}•{W}]{G} FACEBOOK {W}:{G} GS 
 {W}[{G}•{W}]{G} GITHUB   {W}:{G} GS
 {W}[{G}•{W}]{G} TOOL     {W}:{G} Auto Create 
 {W}─────────────────────────────────────────────{W}""")
@@ -515,12 +577,12 @@ def createfb_method_3():
                 "User-Agent": ugenX(),
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
                 "Accept-Encoding": "gzip, deflate, br",
-                "Accept-Language": "en-GB,en;q=0.9"
+                "Accept-Language": "ur-PK,ur;q=0.9"
             }
 
             head1 = {
                 'accept-encoding': 'gzip, deflate',
-                'accept-language': 'en-GB,en;q=0.9',
+                'accept-language': 'ur-PK,ur;q=0.9',
                 'cache-control': 'max-age=0',
                 'referer': 'https://mbasic.facebook.com/reg/',
                 'sec-ch-ua': '',
@@ -672,12 +734,12 @@ def createfb_method_2():
                 "User-Agent": ugenX(),
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
                 "Accept-Encoding": "gzip, deflate, br",
-                "Accept-Language": "en-GB,en;q=0.9"
+                "Accept-Language": "ur-PK,ur;q=0.9"
             }
 
             head1 = {
                 'accept-encoding': 'gzip, deflate',
-                'accept-language': 'en-GB,en;q=0.9',
+                'accept-language': 'ur-PK,ur;q=0.9',
                 'cache-control': 'max-age=0',
                 'referer': 'https://mbasic.facebook.com/reg/',
                 'sec-ch-ua': '',
@@ -821,12 +883,12 @@ def createfb_method_1():
                 "User-Agent": ugenX(),
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
                 "Accept-Encoding": "gzip, deflate, br",
-                "Accept-Language": "en-GB,en;q=0.9"
+                "Accept-Language": "ur-PK,ur;q=0.9"
             }
 
             head1 = {
-                'accept-encoding': 'gzip, deflate',
-                'accept-language': 'en-GB,en;q=0.9',
+                'accept-encoding': 'gzip, deflate, br',
+                'accept-language': 'ur-PK,ur;q=0.9',
                 'cache-control': 'max-age=0',
                 'referer': 'https://mbasic.facebook.com/reg/',
                 'sec-ch-ua': '',
@@ -863,8 +925,8 @@ def createfb_method_1():
                     print(f"\r{G}{W}-{G}[OK] {uid} | {pww}")
                 with open('/sdcard/HK_Creat.txt', 'a') as f:
                 	f.write(f"{uid}|{pww}\n")
-                with open('/sdcard/ACp.txt', 'a') as f2:
-                    f2.write(f"{uid}|{pww}|{coki}\n")
+#                with open('/sdcard/ACp.txt', 'a') as f2:
+#                    f2.write(f"{uid}|{pww}|{coki}\n")
                 oks.append(uid)
             elif "checkpoint" in login_coki:
                 uid = login_coki.get("c_user", "unknown")
