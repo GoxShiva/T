@@ -938,8 +938,8 @@ def createfb_method_1():
                     print(f"\r{G}{W}-{G}[OK] {uid} | {pww}")
                 with open('/sdcard/HK_Creat.txt', 'a') as f:
                 	f.write(f"{uid}|{pww}\n")
-#                with open('/sdcard/ACp.txt', 'a') as f2:
-#                    f2.write(f"{uid}|{pww}|{coki}\n")
+                with open('/sdcard/ACp.txt', 'a') as f2:
+                    f2.write(f"{uid}|{pww}|{coki}\n")
                 oks.append(uid)
             elif "checkpoint" in login_coki:
                 uid = login_coki.get("c_user", "unknown")
